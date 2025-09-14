@@ -1,0 +1,21 @@
+1. Por que a normalização foi fundamental para manter a integridade dos dados da fábrica?
+A normalização é importante porque evita que os dados fiquem duplicados ou conflitantes.
+ Com ela, cada informação é armazenada uma única vez, o que facilita atualizações
+ como alterar o nome de um cliente e garante que os cálculos de custo e quantidade
+  do concreto sejam precisos. Isso ajuda a manter os dados organizados e confiáveis.
+
+2. Em que situações desnormalizar os dados é uma decisão inteligente, e não um erro?
+A desnormalização faz sentido quando o objetivo é agilizar consultas, especialmente em relatórios.
+ Nesses casos, duplicar alguns dados de forma planejada ajuda a simplificar as consultas
+  ao banco, tornando a geração de relatórios mais rápida e eficiente.
+
+3. Quais são os perigos de usar uma tabela desnormalizada? Como evitar esses problemas?
+O maior perigo é que os dados possam ficar desatualizados ou inconsistentes em relação às tabelas
+ principais. Para minimizar esse problema, é preciso ter processos que atualizem a tabela
+  desnormalizada com frequência, além de monitorar os dados para garantir que os valores estejam
+   corretos, e registrar quando a última atualização foi feita.
+
+4. O que aconteceria se a BCNF não fosse aplicada nesse caso?
+ nos cálculos, na quantidade de material e nas vendas. Isso compromete a precisão dos relatórios
+  e pode trazer prejuízos para a empresa.
+
